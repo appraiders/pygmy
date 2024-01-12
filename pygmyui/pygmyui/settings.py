@@ -26,7 +26,8 @@ SECRET_KEY = 'fd(9^fy^sa$$g&a)lknmol!m6@w52h=46r(%-=%elcim9ycc1f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["s.mlab.tv"]
+CSRF_TRUSTED_ORIGINS = ['https://s.mlab.tv']
 
 
 # Application definition
