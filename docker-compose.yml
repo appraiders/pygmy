@@ -18,8 +18,8 @@ services:
     image: amit19/pygmy
     restart: always
     build: .
-    # ports:
-    #  - "9119:9119"
+    ports:
+     - "9119:9119"
     links:
       - database
     environment:
